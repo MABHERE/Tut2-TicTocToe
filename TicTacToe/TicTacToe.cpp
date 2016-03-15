@@ -31,7 +31,7 @@ void TicTacToe::setPlayer(char player = 'X')
 	currentPlayer = player;
 }
 
-char TicTacToe::getPlayer(void)
+char TicTacToe::getPlayer()
 {
 	return currentPlayer;
 }
@@ -85,7 +85,7 @@ void TicTacToe::changePlayer()
 	}
 }
 
-bool TicTacToe::move( int field)
+bool TicTacToe::move()
 {
 
 	bool isvalid;
